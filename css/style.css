@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    padding: 2em;
+}
+
+header img{
+    border-radius: 5em;
+}
+
+header section p{
+    text-align: center;
+    background-color: #fff;
+    padding: 1em;
+    border-color: #7f01fe;
+    border-style: solid;
+    border-width: 1em;
+}
+
+nav{
+    height: 3em;
+    width: 100%;
+    background-color: #0ca789;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border-radius: 1em;
+} 
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0.5em;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0em 0em;
+    width: 70%;
+}
+
+body{
+    background-image: url(../fotos/achtergrond.png);
+    background-color: #d3ebdb;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    margin: 0;
+}
+
+h1{
+    color: #fff;
+    background-color: #0ca789;
+    border-radius: 1em;
+    height: 2.1em;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 1.4em;
+    
+}
+
+h2{
+    color: #fff;
+    background-color: #0ca789;
+    border-radius: 1em;
+    height: 2.4em;
+    text-align: center;
+    padding: 0.6em;
+    font-size: 1.3em;
+}
+
+p{
+    font-size: 1.1em;
+    background-color: #d3ebdb;
+    border-radius: 0.7em;
+}
+
+main{
+    padding: 2em;
+}
+
+main a{
+    text-align: center;
+}
+
+.paars p{
+    background-color: #7f01fe;
+    color: #fff;
+    padding: 0.7em;
+}
+
+.paars h2{
+    background-color: #7f01fe;
+}
+
+main img{
+    border-color: #7f01fe;
+    border-style: solid;
+    border-radius: 2em;
+    border-style: solid;
+    border-bottom-width: 1em;
+    border-top-width: 1em;
+}
+
+footer{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    padding: 1em 1em;
+}
+
+body header section div img{
+    display: flex;
+    justify-content: center;
+}
